@@ -13,6 +13,7 @@ This project addresses these challenges by:
 4.  **Robustness Testing:** Implementing rigorous sensitivity analysis (DoWhy refuters) to validate findings against unobserved confounding.
 
 ## 📂 Repository Structure
+```
 ├── codes/                 
 │   └── 01_EDA.ipynb             # Data Preprocessing & Exploratory Analysis
 │   ├── 02_Traditional_ML.ipynb  # Predictive Modeling (Gradient Boosting, RF)
@@ -23,7 +24,7 @@ This project addresses these challenges by:
 ├── outputs/                     # Generated plots and figures (Causal Graphs, Trees)
 ├── README.md                    # Project documentation
 └── LICENSE                      # MIT License
-
+```
 The analysis is divided into three sequential Jupyter Notebooks:
 
 * **`01_EDA.ipynb`**: **Data Preprocessing & Exploratory Data Analysis**
