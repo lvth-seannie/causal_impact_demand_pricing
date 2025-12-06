@@ -18,9 +18,7 @@ This project addresses these challenges by:
 │   └── 01_EDA.ipynb             # Data Preprocessing & Exploratory Analysis
 │   ├── 02_Traditional_ML.ipynb  # Predictive Modeling (Gradient Boosting, RF)
 │   └── 03_Causal.ipynb          # Causal Inference (DML, Causal Forests)  
-├── datasets/
-│   ├── raw/                     # Raw input files (DB1B, Fuel Prices)
-│   └── processed/               # Cleaned CSVs (base_df.csv, final_df.csv)
+├── datasets/                    # Cleaned CSVs (base_df.csv, final_df.csv)
 ├── outputs/                     # Generated plots and figures (Causal Graphs, Trees)
 ├── README.md                    # Project documentation
 └── LICENSE                      # MIT License
