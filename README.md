@@ -13,6 +13,16 @@ This project addresses these challenges by:
 4.  **Robustness Testing:** Implementing rigorous sensitivity analysis (DoWhy refuters) to validate findings against unobserved confounding.
 
 ## 📂 Repository Structure
+├── codes/                 
+│   └── 01_EDA.ipynb             # Data Preprocessing & Exploratory Analysis
+│   ├── 02_Traditional_ML.ipynb  # Predictive Modeling (Gradient Boosting, RF)
+│   └── 03_Causal.ipynb          # Causal Inference (DML, Causal Forests)  
+├── datasets/
+│   ├── raw/                     # Raw input files (DB1B, Fuel Prices)
+│   └── processed/               # Cleaned CSVs (base_df.csv, final_df.csv)
+├── outputs/                     # Generated plots and figures (Causal Graphs, Trees)
+├── README.md                    # Project documentation
+└── LICENSE                      # MIT License
 
 The analysis is divided into three sequential Jupyter Notebooks:
 
@@ -51,13 +61,23 @@ To run the notebooks, you will need Python 3.x and the following libraries:
 * `shap`
 
 ### Installation
-
+It is recommended to use a virtual environment to avoid dependency conflicts.
 1.  Clone this repository:
-    ```bash
-    git clone [https://github.com/](https://github.com/)[your-username]/[your-repo-name].git
-    cd [your-repo-name]
-    ```
-
+   ```bash
+   git clone [https://github.com/lvth-seannie/causal-impact-demand-pricing.git](https://github.com/lvth-seannie/causal-impact-demand-pricing.git)
+   cd causal-impact-demand-pricing
+   ```
+2. Create and activate a virtual environment (optional but recommended):    
+   ```
+   # Windows
+   python -m venv venv
+   .\venv\Scripts\activate
+   
+   # Mac/Linux
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
 2.  Install the required packages:
-    ```bash
-    pip install pandas numpy matplotlib seaborn scikit-learn xgboost econml dowhy causalml holidays networkx shap
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn xgboost econml dowhy causalml holidays networkx shap
+   ```
