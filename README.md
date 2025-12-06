@@ -69,7 +69,7 @@ It is recommended to use a virtual environment to avoid dependency conflicts.
    cd causal-impact-demand-pricing
    ```
 2. Create and activate a virtual environment (optional but recommended):    
-   ```
+   ```bash
    # Windows
    python -m venv venv
    .\venv\Scripts\activate
