@@ -1,4 +1,4 @@
-# Causal Impacts of Airline Pricing Strategies on Passenger Demand
+# Causal Impacts of Pricing Strategies on Passenger Demand
 **Bachelor's Thesis | Constructor University Bremen**
 
 This repository contains the source code and data analysis for the journal paper Causal impacts of airline pricing strategies on passenger demand: A comparative evaluation of traditional and causal machine learning approaches. This project leverages advanced Causal Machine Learning (CML) techniques, specifically Double Machine Learning (DML) and Causal Forests, to estimate price elasticity and uncover heterogeneous treatment effects across different market segments.
