@@ -12,7 +12,8 @@ This repository contains the data, analysis notebooks, and high-resolution outpu
 ## 🛢️ Data Source
 The raw airline dataset used in this study is too large to be hosted directly on GitHub. You can access the original source files at the following location:
 
-* **Source Name:** [Domestic Airline Consumer Airfare (DACA) - US Department of Transportation (USDOT)]([https://www.transtats.bts.gov/DatabaseInfo.asp?QO_VQ=EFI&Y203=D](https://www.transportation.gov/policy/aviation-policy/domestic-airline-consumer-airfare-report))
+* **Source Name:** [Domestic Airline Consumer Airfare (DACA) - US Department of Transportation (USDOT)]
+(https://www.transportation.gov/policy/aviation-policy/domestic-airline-consumer-airfare-report)
 * **Access Note:** For reproducibility, ensure you download the periods corresponding to the 1996-2024 timeframe as specified in the methodology.
 
 If you are using the pre-processed version for replication, please refer to the `datasets/processed/` directory in this repository, which contains the foundational data required to run the notebooks.
