@@ -13,7 +13,7 @@ This repository contains the data, analysis notebooks, and high-resolution outpu
 The raw airline dataset used in this study is too large to be hosted directly on GitHub. You can access the original source files at the following location:
 
 * **Source Name:** [Domestic Airline Consumer Airfare (DACA) - US Department of Transportation (USDOT)]
-(https://www.transportation.gov/policy/aviation-policy/domestic-airline-consumer-airfare-report)
+https://www.transportation.gov/policy/aviation-policy/domestic-airline-consumer-airfare-report
 * **Access Note:** For reproducibility, ensure you download the periods corresponding to the 1996-2024 timeframe as specified in the methodology.
 
 If you are using the pre-processed version for replication, please refer to the `datasets/processed/` directory in this repository, which contains the foundational data required to run the notebooks.
@@ -28,7 +28,7 @@ If you are using the pre-processed version for replication, please refer to the 
 * `outputs/`: High-resolution (500 DPI) PDF visualizations of SHAP values, causal graphs, and sensitivity heatmaps.
 
 ## 🛠 Methodology
-We utilize a **LinearDML** framework with Gradient Boosting Regressors to handle nuisance models for both treatment (Fare) and outcome (Passengers). 
+![Concept Overview](concept_overview.png)
 
 ### Hyperparameter Tuning
 To prevent overfitting and ensure the stability of heterogeneous treatment effects, we performed 5-fold cross-validation on the Causal Forest parameters. 
