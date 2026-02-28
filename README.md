@@ -1,6 +1,6 @@
 # Causal Impact of Pricing on Passenger Demand
 
-## Causal impacts of airline pricing strategies on passenger demand: A comparative evaluation of traditional and causal machine learning approaches
+### "Causal impacts of airline pricing strategies on passenger demand: A comparative evaluation of traditional and causal machine learning approaches"
 
 This repository contains the data, analysis notebooks, and high-resolution outputs for a causal inference study on airline ticket pricing. We employ **Double Machine Learning (DML)** and **Causal Forests** to estimate the Average Treatment Effect (ATE) of fare changes on passenger volume while accounting for complex confounding factors.
 
