@@ -1,0 +1,25 @@
+# Ignore everything by default
+/*
+
+# Allow specific folders
+!/datasets/
+!/notebooks/
+!/outputs/
+!/.gitignore
+
+# Ignore all files inside datasets EXCEPT these two
+/datasets/*
+!/datasets/processed/
+/datasets/processed/*
+!/datasets/processed/base_df.csv
+!/datasets/processed/final_df.csv
+
+# Ignore specific notebooks you don't want
+/notebooks/*
+!/notebooks/01_EDA.ipynb
+!/notebooks/02_Traditional_ML.ipynb
+!/notebooks/03_Causal.ipynb
+
+# Ignore environment and checkpoints
+.venv/
+.ipynb_checkpoints/
